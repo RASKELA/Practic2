@@ -1,3 +1,5 @@
+package org.colladge.practice2.task1;
+
 class Picture {
     private String name;
     private short year;
@@ -23,6 +25,6 @@ class Picture {
 
     @Override
     public String toString() {
-        return "Picture{name='" + name + "', year=" + year + ", author='" + author + "'}";
+        return "org.colladge.practice2.task1.Picture{name='" + name + "', year=" + year + ", author='" + author + "'}";
     }
 }

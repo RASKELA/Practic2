@@ -1,3 +1,5 @@
+package org.colladge.practice2.task1;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -31,7 +33,7 @@ class Gallery {
         if (pictures.contains(picture)) {
             return picture.toString();
         }
-        return "Picture not found in the gallery.";
+        return "org.colladge.practice2.task1.Picture not found in the gallery.";
     }
 
     public Picture getPicture(String name) {

@@ -1,3 +1,5 @@
+package org.colladge.practice2.task1;
+
 public class Main {
     public static void main(String[] args) {
         Gallery gallery = Gallery.getInstance("ArtGallery");
@@ -8,14 +10,14 @@ public class Main {
         gallery.addPicture(picture1);
         gallery.addPicture(picture2);
 
-        System.out.println("Gallery Name: " + gallery.getName());
-        System.out.println("Picture Count: " + gallery.getPictureCount());
+        System.out.println("org.colladge.practice2.task1.Gallery Name: " + gallery.getName());
+        System.out.println("org.colladge.practice2.task1.Picture Count: " + gallery.getPictureCount());
 
         for (Picture picture : gallery.getPictures()) {
             System.out.println(gallery.describePicture(picture));
         }
 
         gallery.removePicture(picture1);
-        System.out.println("Picture Count after removal: " + gallery.getPictureCount());
+        System.out.println("org.colladge.practice2.task1.Picture Count after removal: " + gallery.getPictureCount());
     }
 }
